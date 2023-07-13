@@ -235,9 +235,11 @@ function comprobarRespuesta(opcion) {
 function comprobarScore() {
     renovarPreguntas()
     if (preguntas.length == 0) {
+        corazones.innerHTML = corazon[vidas]
         displayPreg.innerHTML = `Ya no quedan más preguntas. </br>
         Tu puntuación fue de ${score}, espera a que todos terminen.`
     } else if (vidas == 0) {
+        corazones.innerHTML = corazon[vidas]
         displayPreg.innerHTML = `Ya no te quedan más vidas. </br>
         Tu puntuación fue de ${score}, espera a que todos terminen.`
     } else {
