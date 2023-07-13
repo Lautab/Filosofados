@@ -158,7 +158,18 @@ const preguntas = [
         resp: ["Problema del ser","Problema del valor","Problema del conocimiento"],
         corr: "Problema del conocimiento"
     },
-
+    {
+        id: 24,
+        preg: "La sabiduría de Socrates consiste en",
+        resp: ["Conocer la ignorancia de los demás", "Tener Conciencia de su ignorancia", "Ignorar a los demás", "Ninguna es correcta"],
+        corr: "Tener Conciencia de su ignorancia"
+    },
+    {
+        id: 25,
+        preg: `¿Qué filósofo dijo "El hombre es la medida de todas las cosas"?`,
+        resp: ["Protágoras", "Newton", "Pitágoras", "Socrates"],
+        corr: "Protágoras"
+    }
 ]
 
 const corazon = [
